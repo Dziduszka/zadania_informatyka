@@ -2,6 +2,13 @@
 #include <cstdlib>
 #include <ctime>
 
+/*
+
+    Rozwiazanie pisemne do zadan:
+    https://jamboard.google.com/d/19ocTsGNjkjEMk-LzwbAER1PoJ6wrW7AZvIpWHXk-KHc/viewer
+
+*/
+
 using namespace std;
 
 //zad 1:
@@ -154,8 +161,6 @@ int main()
     zad5(a);
     //----------------------------------------------------------------------------------------------------
     a = (rand() % 100) + 1;
-    a=49;
     cout << "\nZAD6:\nProgram wylosowal nastepujaca liczbe z zakresu 1-100: " << a;
     cout << "\n Wynikiem zadania 6 dla tej liczby bedzie: " << zad6(a);
-
 }
